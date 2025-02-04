@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Makeup.com</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="promo-banner">
+        <span class="empty"></span>
+        <span>Sign up and get 20% off on your first makeup order. <a href="sign-up.html">Sign Up Now</a></span>
+        <span class="promo-close">&times;</span>
+    </div>
+    
+    <div id="cookieNotification" class="cookie-notification">
+        <p>We use cookies to improve your experience. By continuing, you agree to our <a href="#">cookie policy</a>.</p>
+        <button id="acceptCookiesBtn" class="accept-cookies-btn">Accept</button>
+    </div>
+    
+    <header class="header">
+        <div class="logo">Makeup.com</div>
+        <nav class="navbar" id="navMenu">
+            <ul class="nav-links">
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">On Sale</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Brands</a></li>
+            </ul>
+        </nav>
+        
+        <div class="search-bar">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M10,2a8,8,0,1,0,5.29,14L20.71,21.29a1,1,0,0,0,1.42-1.42L16.71,14.59A8,8,0,0,0,10,2ZM4,10A6,6,0,1,1,10,16,6,6,0,0,1,4,10Z"></path>
+            </svg>
+            <input type="text" placeholder="Search for makeup products...">
+        </div>
+        <div class="icons">
+            <i id="icon1" class="fa-solid fa-cart-shopping"></i>
+            <i id="icon2" class="fa-solid fa-user"></i>
+            <i id="burger-menu" class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <div class="shop-now">
+        <div class="left-side">
+            <p class="large-text">FIND MAKEUP THAT ENHANCES YOUR BEAUTY</p>
+            <p class="small-text">Browse through our diverse collection of high-quality cosmetics, designed to enhance your natural beauty and fit every occasion.</p>
+            <button>Shop Now</button>
+            <div class="segments">
+                <div class="card">
+                    <h2>200+</h2>
+                    <p>International Makeup Brands</p>
+                </div>
+                <div class="line"></div>
+                <div class="card">
+                    <h2>3,000+</h2>
+                    <p>High-Quality Products</p>
+                </div>
+                <div id="line2" class="line"></div>
+                <div class="card">
+                    <h2>50,000+</h2>
+                    <p>Happy Customers</p>
+                </div>
+            </div>
+        </div>
+        <img src="/images/star.png" class="star1" alt="Star">
+        <img src="/images/star.png" class="star2" alt="Star">
+        <div class="image"><img src="/images/background.avif" alt="Makeup"></div>
+    </div>
+
+    <div class="brands-container">
+        <div class="logos"><img src="/images/maybelline.png" alt="Maybelline"></div>
+        <div class="logos"><img src="/images/mac.png" alt="MAC"></div>
+        <div class="logos"><img src="/images/nyx.png" alt="NYX"></div>
+        <div class="logos"><img src="/images/sephora.png" alt="Sephora"></div>
+        <div class="logos"><img src="/images/loreal.png" alt="L'Oréal"></div>
+    </div>
+
+    <section class="new-arrivals">
+        <h2>NEW ARRIVALS</h2>
+        <div class="product-grid" id="grid1"></div>
+        <button>View All</button>
+        <div class="product-grid" id="grid2"></div>
+        <button>View All</button>
+    </section>
+
+
+    <h2 class="happy-customers-text">OUR HAPPY CUSTOMERS</h2>
+
+    <div class="happy-customers">
+        <div class="arrows">
+            <p>← →</p>
+        </div>
+        <div class="reviews">
+            <div class="review">
+                <h4 class="stars">★★★★★</h4>
+                <h3>Emma T. ✅</h3>
+                <p>"The makeup products I bought from Makeup.com are incredible. My skin feels amazing, and the colors are stunning!"</p>
+            </div>
+            <div class="review" id="review2">
+                <h4 class="stars">★★★★★</h4>
+                <h3>Liam R. ✅</h3>
+                <p>"I've never found such a wide range of cosmetics in one place. Makeup.com is my go-to for all things beauty."</p>
+            </div>
+            <div class="review" id="review3">
+                <h4 class="stars">★★★★★</h4>
+                <h3>Olivia S. ✅</h3>
+                <p>"I'm thrilled with the quality and variety of makeup products here. Everything I need to perfect my look is available!"</p>
+            </div>
+        </div>
+        <div style="height: 60px;"></div>
+    </div>
+
+    <div class="subscribtion-letter">
+        <h2>STAY UP TO DATE ABOUT OUR LATEST BEAUTY OFFERS</h2>
+        <div class="mail-subscribe">
+            <input type="email" placeholder="✉ Enter your email address" />
+            <button type="submit">Subscribe to Newsletter</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-div">
+            <div class="footer-shop-co">
+                <h2>MAKEUP.COM</h2>
+                <p>Your one-stop destination for premium beauty products. Find the perfect look that suits you best.</p>
+                <div class="footer-soc-logos">
+                    <div class="logos-circle">
+                        <img src="/images/twitter.png" alt="Twitter">
+                    </div>
+                    <div class="logos-circle">
+                        <img src="/images/facebook.png" alt="Facebook">
+                    </div>
+                    <div class="logos-circle">
+                        <img src="/images/instagram.png" alt="Instagram">
+                    </div>
+                    <div class="logos-circle">
+                        <img src="/images/github.png" alt="Github">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-dict">
+                <h3>COMPANY</h3>
+                <p>About</p>
+                <p>Features</p>
+                <p>Works</p>
+                <p>Career</p>
+            </div>
+            <div class="footer-dict">
+                <h3>HELP</h3>
+                <p>Customer Support</p>
+                <p>Delivery Details</p>
+                <p>Terms & Conditions</p>
+                <p>Privacy Policy</p>
+            </div>
+            <div class="footer-dict">
+                <h3>FAQ</h3>
+                <p>Account</p>
+                <p>Manage Deliveries</p>
+                <p>Orders</p>
+                <p>Payments</p>
+            </div>
+            <div class="footer-dict">
+                <h3>RESOURCES</h3>
+                <p>Free eBooks</p>
+                <p>Beauty Tutorials</p>
+                <p>Makeup Tips - Blog</p>
+                <p>YouTube Playlist</p>
+            </div>
+        </div>
+        <div class="footer-line"></div>
+        <div class="footer-copyright">
+            <h2>Makeup.com © 2000-2023, All Rights Reserved</h2>
+            <div class="payment-logos">
+                <div class="payment-logo"><img src="/images/visa.png" alt="Visa"></div>
+                <div class="payment-logo"><img src="/images/mastercard.png" alt="Mastercard"></div>
+                <div class="payment-logo"><img src="/images/paypal.png" alt="Paypal"></div>
+                <div class="payment-logo"><img src="/images/applepay.png" alt="Apple Pay"></div>
+                <div class="payment-logo"><img src="/images/googlepay.png" alt="Google Pay"></div>
+            </div>
+        </div>
+    </footer>
+    <button id="scrollToTopBtn" class="scroll-to-top-btn">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
