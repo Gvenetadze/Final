@@ -82,7 +82,7 @@ body {
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #f39c12;
+  background-color: #f57c85;
   color: white;
   text-align: center;
   padding: 15px 20px;
@@ -102,7 +102,7 @@ body {
 
 .accept-cookies-btn {
   background-color: #fff;
-  color: #f39c12;
+  color: #f57c85;
   border: none;
   padding: 10px 15px;
   border-radius: 5px;
@@ -112,7 +112,7 @@ body {
 }
 
 .accept-cookies-btn:hover {
-  background-color: #ffe4b5;
+  background-color: #f57c85;
 }
 
 .icons {
